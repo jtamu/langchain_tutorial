@@ -1,0 +1,9 @@
+services:
+  python:
+    build: .
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
+    env_file:
+      - .env
