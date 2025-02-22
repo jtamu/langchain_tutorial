@@ -136,6 +136,8 @@ workflow.add_conditional_edges(
 
 compiled = workflow.compile()
 
+print(compiled.get_graph().draw_mermaid())
+
 initial_state = State(query="生成AIについて教えてください")
 result = compiled.invoke(initial_state)
 
