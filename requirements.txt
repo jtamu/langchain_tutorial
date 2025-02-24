@@ -40,6 +40,7 @@ h11==0.14.0
 httpcore==1.0.7
 httptools==0.6.4
 httpx==0.28.1
+httpx-sse==0.4.0
 huggingface-hub==0.28.1
 humanfriendly==10.0
 idna==3.10
@@ -49,12 +50,12 @@ jiter==0.8.2
 jsonpatch==1.33
 jsonpointer==3.0.0
 kubernetes==32.0.0
-langchain==0.2.13
-langchain-chroma==0.1.2
-langchain-community==0.2.12
+langchain==0.3.19
+langchain-chroma==0.2.2
+langchain-community==0.3.18
 langchain-core==0.3.37
 langchain-openai==0.3.6
-langchain-text-splitters==0.2.2
+langchain-text-splitters==0.3.6
 langgraph==0.2.22
 langgraph-checkpoint==1.0.12
 langsmith==0.1.147
@@ -94,6 +95,7 @@ pyarrow==19.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pydantic==2.10.6
+pydantic-settings==2.8.0
 pydantic_core==2.27.2
 Pygments==2.19.1
 PyPika==0.48.9
